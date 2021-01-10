@@ -63,8 +63,80 @@ class Home extends Component {
                         </a>
                     </nav>
                 </div>
-                <div id='componets'>
+                <div id='main_componets'>
+                    <div id='box_compoents'>
+                        <div class="row">
 
+                            <div class="card">
+                                <div class="card-header">
+                                    <text>Phòng 1 </text>
+                                </div>
+                                <div class="card-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi. </p>
+                                </div>
+
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                <text>Phòng 1 </text>
+                                </div>
+                                <div class="card-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.</p>
+
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                <text>Phòng 1 </text>
+                                </div>
+
+                                <div class="card-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.</p>
+
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                <text>Phòng 1 </text>
+                                </div>
+
+                                <div class="card-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.</p>
+
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                <text>Phòng 1 </text>
+                                </div>
+
+                                <div class="card-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.</p>
+
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                <text>Phòng 1 </text>
+                                </div>
+
+                                <div class="card-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </body>
         );

@@ -1,10 +1,11 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
+
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
-  --nav-width: 220px;
+  --nav-width: 13.5em;
 
   /*===== Colors =====*/
   --first-color: #0573ff;
@@ -126,13 +127,102 @@ border: 2px solid #ffffff;
 .nav__icon{
   font-size: 1.25rem;
 }
-.componets{
-  border-color: #0573ff;
-  background-color: yellow;
-  width: 80%;
-  height: 80%;
+/* main_componets */
+#main_componets{
+  background-color: #0573ff;
+  height: auto;
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: 1rem;
+}
+#box_compoents{
+  background-color: #f1f3f3;
+  height: 2000px;
+}
+/* box_compoents box */
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.card-header {
+  text-align: center;
+  background: linear-gradient(to right, #4b94f3,#0573ff, #4b94f3);
+  color: #fff;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 43%;
+  height: 400px;
+  background: #fff;
+  margin-top: 2rem;
+}
+
+
+
+
+
+
+/* tablet */
+@media screen and (max-width: 1200px) {
+  /*===== NAV =====*/
+  .l-navbar{
+    position: fixed;
+    top: 0;
+    width: 12rem;
+    height: 100vh;
+    background-color: var(--first-color);
+    z-index: var(--z-fixed);
+  }
+  /* main_componets */
+  #main_componets{
+    background-color: #0573ff;
+    height: auto;
+    margin-top: 5rem;
+    margin-left: 13rem;
+    margin-right: 1rem;
+  }
+ 
+
+  .card {
+    width: 80%;
+  }
+}
+
+
+/* moble */
+@media screen and (max-width: 620px) {
+  .l-navbar{
+    position: fixed;
+    top: 0;
+    width: 4rem;
+    height: 100vh;
+    background-color: var(--first-color);
+    z-index: var(--z-fixed);
+  }
+  /* box_compoents */
+  #main_componets{
+    background-color: #0573ff;
+    height: auto;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+  }
+/* box_compoents box */
+  .card {
+    width: 87%;
+    background: #fff;
+    margin-top: 2rem;
+  }
+  
+}
 
 
 
